@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="한가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다."/>
-    <meta name="keyword" content="포트폴리오, 리액트, 뷰, 넥스트, 웹스토리보이, portfolio, react.js, vue.js, next.js, webstoryboy" />
-    <title>포트폴리오 사이트 만들기 😇 Vite-Site</title>
+    <meta name="description" content="이현일 포트폴리오"/>
+    <meta name="keyword" content="이현일의 포트폴리오, 리액트, 뷰, 넥스트, portfolio, react.js, vue.js, next.js" />
+    <title>이현일 포트폴리오 입니다.</title>
 
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -22,14 +22,65 @@
     </div>
     <!-- skip -->
 
-    <header id="header">
-        header
+    <header id="header" role="banner">
+        <div class="header_inner"> 
+            <div class="header_logo">
+                <h1>
+                    <a href="#">포트폴리오<em>vite</em></a>
+                </h1>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_nav_mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false" role="button" tabindex="0">
+                <span></span>
+            </div>
+        </div>
+        
     </header>
     <!-- header -->
 
-    <main id="main">
+    <main id="main" role="main">
         <section id="intro">
-            intro
+            <div class="intro_inner">
+                <div class="intro_title">
+                    port developer
+                </div>
+                <div class="intro_lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="intro_text">
+                    <div class="text">
+                        <div>talent is</div>
+                        <div>found at the end of the </div>
+                        <div>effort </div>
+                    </div>
+                    <div class="img">
+                        <img src="assets/img/about.jpg" alt="잇츠미">
+                    </div>
+                </div>
+                <div class="intro_lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
         </section>
         <!-- intro -->
 
@@ -55,7 +106,7 @@
     </main>
     <!-- main -->
 
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
         footer
     </footer>
     <!-- footer  -->
